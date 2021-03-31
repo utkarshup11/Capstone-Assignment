@@ -1,3 +1,4 @@
+//Utkarsh.
 package com.knoldus.Entity
 
 case class User(id: Int,

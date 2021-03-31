@@ -1,3 +1,4 @@
+//Utkarsh.
 package com.knoldus.ValidatorTest
 
 import com.knoldus.Entity.User
@@ -6,6 +7,7 @@ import org.scalatest.flatspec.AnyFlatSpec
 
 class UserValidatorTest extends AnyFlatSpec
 {
+  //scalastyle:off magic.number
   val userValidator = new UserValidator
 
   "User validator " should " be valid " in

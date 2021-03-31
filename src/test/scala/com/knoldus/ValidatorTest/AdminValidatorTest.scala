@@ -1,3 +1,4 @@
+//Utkarsh.
 package com.knoldus.ValidatorTest
 
 import com.knoldus.Entity.Admin
@@ -6,6 +7,7 @@ import org.scalatest.flatspec.AnyFlatSpec
 
 class AdminValidatorTest extends AnyFlatSpec
 {
+  //scalastyle:off magic.number
   val adminValidator = new AdminValidator
 
   "Admin Validator " should " be valid " in

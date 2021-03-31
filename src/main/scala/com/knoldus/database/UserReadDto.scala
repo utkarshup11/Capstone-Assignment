@@ -1,3 +1,4 @@
+//Utkarsh.
 package com.knoldus.database
 
 import com.knoldus.Entity.User
@@ -6,6 +7,8 @@ import scala.collection.mutable.HashMap
 
 abstract class UserReadDto
 {
+
+  //scalastyle:off magic.number
   var firstUser = User( 1, "Utkarsh" , "utkarshup11@gmail.com" , "Gorakhpur" , 8173864498L)
   var secondUser = User( 2, "Suraj" , "suraj@gmail.com" , "Lucknow" , 8173864488L)
 

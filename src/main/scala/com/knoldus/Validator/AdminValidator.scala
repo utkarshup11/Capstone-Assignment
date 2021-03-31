@@ -1,3 +1,4 @@
+//Utkarsh.
 package com.knoldus.Validator
 
 import com.knoldus.Entity.Admin
@@ -12,10 +13,12 @@ class AdminValidator
       admin.id.isValidInt &&
       admin.contactNo.isValidLong &&
       admin.address.matches("^[a-zA-Z\\\\s]+$"))
-      true
-
-    else
+      {
+        true
+      }
+    else {
       false
+    }
   }
 
 
